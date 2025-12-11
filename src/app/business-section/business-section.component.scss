@@ -1,0 +1,150 @@
+.business-section {
+    width: 1530px;
+    height: auto;
+    top: 916px;
+    opacity: 1;
+    position: absolute;
+
+    .frame {
+        width: 1135px;
+        height: 1440px;
+        top: 190px;
+        left: 298px;
+        opacity: 1;
+    }
+
+    .frame-image {
+        width: auto;
+        height: 923px;
+        left: 298px;
+        opacity: 1;
+        background-image: url("../../assets/images/frame-section-image.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .business-text {
+            width: 568px;
+            height: 93px;
+            top: 8px;
+            opacity: 1;
+            font-family: Poppins;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 38px;
+            line-height: 46px;
+            letter-spacing: 1px;
+            color: #fff;
+            position: absolute;
+            left: 286px;
+        }
+        .spiral-line {
+            width: 590px;
+            height: 590px;
+            top: 136px;
+            left: 56px;
+            /* opacity: 0.75; */
+            position: relative;
+
+            .image1 {
+                background-image: url('../../assets/images/ProStateperty-1.png');
+                width: 535px;
+                height: 555px;
+                top: 32px;
+                left: 150px;
+                opacity: 1;
+                border-radius: 100px;
+                position: relative;
+
+            }
+            .image2 {
+                background-image: url('../../assets/images/ProStateperty-2.png');
+                width: 535px;
+                height: 555px;
+                top: 32px;
+                left: 150px;
+                opacity: 1;
+                border-radius: 100px;
+                position: relative;
+            }
+            .image3 {
+                background-image: url('../../assets/images/ProStateperty-3.png');
+                width: 535px;
+                height: 555px;
+                top: 32px;
+                left: 150px;
+                opacity: 1;
+                border-radius: 100px;
+                position: relative;
+            }
+
+        }
+        .business-value {
+                width: 568px;
+                height: 573px;
+                right: 25px;
+                opacity: 1;
+                position: absolute;
+            .speed {
+                width: 528px;
+                height: 159px;
+                top: 414px;
+                left: 20px;
+                opacity: 1;
+
+            }
+            .reliability {
+
+            }
+            .money {
+
+            }
+        }
+
+        .text {
+            width: 445px;
+            height: 28px;
+            top: 132px;
+            opacity: 1;
+            font-family: Poppins;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 16px;
+            line-height: 27px;
+            letter-spacing: 0%;
+            text-transform: uppercase;
+            background: #C4C4C4;
+
+        }   
+        .sub-section {
+            width: 528px;
+            height: 132px;
+            top: 0.41px;
+            opacity: 1;
+            .content {
+                width: 618px;
+                height: 132px;
+                top: -3px;
+                opacity: 1;
+                font-family: Poppins;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 110px;
+                line-height: 132px;
+                letter-spacing: 0%;
+
+                color: linear-gradient(265.11deg, #00FFBD -5.84%, #025B8C 111.58%);
+
+
+                span {
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 70px;
+                    line-height: 132px;
+                    letter-spacing: 0%;
+
+                }
+            }
+        }
+    }
+}

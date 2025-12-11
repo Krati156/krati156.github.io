@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    color: #fff;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #030303;
+
+
+    a{
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .start-building {
+        width: 194px;
+        height: 52px;
+        opacity: 1;
+        border-radius: 36px;
+        border-width: 1px;
+        gap: 10px;
+        padding-top: 16px;
+        padding-right: 24px;
+        padding-bottom: 16px;
+        padding-left: 24px;
+
+        background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+        display: inline-flex;
+
+        cursor: pointer;
+    }
+
+    .button-text{
+        width: 122px;
+        height: 20px;
+        opacity: 1;
+
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: Regular;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        z-index: 999;
+    }
+
+    .right-arrow {
+        width: 14px;
+        height: 20px;
+        opacity: 1;
+        gap: 4px;
+        background-image: url('assets/images/right-arrow.png');
+        z-index: 999;
+    }
+}
+

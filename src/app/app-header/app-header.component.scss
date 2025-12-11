@@ -1,0 +1,70 @@
+.app-header{
+  display: flex;
+  column-gap: 20px;
+  color: #fff;
+  opacity: 1;
+  background: #03030380;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 146px 20px 146px;
+  div {
+    flex: 1;
+    text-align: center;
+  }
+  .nav-bar nav{
+    display: flex;
+    justify-content: space-between;
+
+    a{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    }
+    a.links {
+      color: #C4C4C4CC;
+    }
+
+    a:hover img:first-child {
+      display:none;
+    }
+
+    a:hover img:last-child {
+      display:inline-block;
+    }
+
+    a:hover {
+      color: #F4F4F4;
+    }
+  }
+}
+
+.brand-logo{
+  background-image: url('../../assets/images/brand-logo-small.png');
+  height: 40px;
+  width: 109px;
+  background-size: contain;
+}
+
+.down-arrow{
+  background-image: url('../../assets/images/down-arrow.png');
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+  transform: rotate(0deg);
+}
+
+.up-arrow{
+  background-image: url('../../assets/images/up-arrow.png');
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+  transform: rotate(360deg);
+}
+
+.hide {
+  display: none;
+}

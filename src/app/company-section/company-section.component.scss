@@ -1,0 +1,64 @@
+.section-content {
+    width: 1530px;
+    height: 196px;
+    top: 640px;
+    opacity: 1;
+    gap: 32px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    position: absolute;
+    text-align: center;
+
+    .partner-text {
+        height: 30px;
+        opacity: 1;
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #37CCF7;
+
+    }
+
+    .image-wrapper {
+        display: flex;
+        height: 38px;
+        opacity: 0.8;
+        gap: 96px;
+        place-content: center;
+        flex-wrap: wrap;
+
+        .images {
+            width: 95px;
+            height: 37px;
+            opacity: 1;
+            background-size: contain;
+            background-repeat: no-repeat;}
+        .images.brave {
+            background-image: url("../../assets/images/brave.png");
+        }
+
+        .images.circle {
+            background-image: url("../../assets/images/circle.png");
+        }
+        .images.discord {
+            background-image: url("../../assets/images/discord.png");
+        }
+        .images.google {
+            background-image: url("../../assets/images/google.png");
+        }
+        .images.jump {
+            background-image: url("../../assets/images/jump.png");
+        }
+        .images.lollapalooza {
+            background-image: url("../../assets/images/lollapalooza.png");
+        }
+        .images.magic_eden {
+            background-image: url("../../assets/images/magic_eden.png");
+        }
+        
+    }
+}
