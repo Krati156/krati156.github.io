@@ -87,23 +87,33 @@
             .speed {
                 width: 528px;
                 height: 159px;
-                top: 414px;
+                top: -200px;
                 left: 20px;
                 opacity: 1;
-
+                position: absolute;
             }
             .reliability {
-
+                width: 528px;
+                height: 159px;
+                top: -400px;
+                left: 20px;
+                opacity: 1;
+                position: absolute;
             }
             .money {
-
+                width: 528px;
+                height: 159px;
+                top: -580px;
+                left: 20px;
+                opacity: 1;
+                position: absolute;
             }
         }
 
         .text {
             width: 445px;
             height: 28px;
-            top: 132px;
+            top: 105px;
             opacity: 1;
             font-family: Poppins;
             font-weight: 400;
@@ -112,8 +122,8 @@
             line-height: 27px;
             letter-spacing: 0%;
             text-transform: uppercase;
-            background: #C4C4C4;
-
+            color: #C4C4C4;
+            position: absolute;
         }   
         .sub-section {
             width: 528px;
@@ -121,19 +131,20 @@
             top: 0.41px;
             opacity: 1;
             .content {
-                width: 618px;
+                width: 560px;
                 height: 132px;
                 top: -3px;
                 opacity: 1;
                 font-family: Poppins;
                 font-weight: 400;
                 font-style: Regular;
-                font-size: 110px;
+                font-size: 90px;
                 line-height: 132px;
                 letter-spacing: 0%;
 
-                color: linear-gradient(265.11deg, #00FFBD -5.84%, #025B8C 111.58%);
-
+                background: -webkit-linear-gradient(265.11deg, #00FFBD -5.84%, #025B8C 111.58%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
 
                 span {
                     font-family: Poppins;
